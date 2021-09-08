@@ -49,7 +49,7 @@ your mongo string url would be :
           "connector.class":"com.mongodb.kafka.connect.MongoSinkConnector",
           "tasks.max":"1",
           "topics":"pageviews",
-          "connection.uri":"mongodb://mongo1:27017,mongo2:27017,mongo3:27017",
+          "connection.uri":"mongodb://mongo1:27017,mongo2:27017",
           "database":"test",
           "collection":"pageviews",
           "key.converter": "org.apache.kafka.connect.storage.StringConverter",
@@ -64,7 +64,7 @@ your mongo string url would be :
        "config": {
          "tasks.max":"1",
          "connector.class":"com.mongodb.kafka.connect.MongoSourceConnector",
-         "connection.uri":"mongodb://mongo1:27017,mongo2:27017,mongo3:27017",
+         "connection.uri":"mongodb://mongo1:27017,mongo2:27017",
          "topic.prefix":"mongo",
          "database":"test",
          "collection":"pageviews"
