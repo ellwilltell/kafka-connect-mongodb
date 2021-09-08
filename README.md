@@ -2,7 +2,7 @@
 
 Dockerfile for [Mongo official Plugin For Kafka Connect](https://github.com/mongodb/mongo-kafka)
 
-This Image is available on [Docker Hub](docker.io/elliminium/kafka-connect-mongodb)
+This Image is available on [Docker Hub](https://hub.docker.com/r/elliminium/kafka-connect-mongodb)
 
 # Example:
 
